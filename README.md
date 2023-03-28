@@ -1,2 +1,2 @@
-# Kptm SSO Client - Laravel Package
+# Uptm SSO Client - Laravel Package
 

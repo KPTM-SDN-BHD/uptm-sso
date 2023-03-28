@@ -1,6 +1,6 @@
 <?php
 
-namespace Kptm\Sso\Http\Controllers;
+namespace Uptm\Sso\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Socialite\Facades\Socialite;

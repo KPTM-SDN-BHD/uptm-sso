@@ -1,6 +1,6 @@
 <?php
 
-use Kptm\Sso\SsoServiceProvider;
+use Uptm\Sso\SsoServiceProvider;
 use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase

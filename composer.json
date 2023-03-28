@@ -1,5 +1,5 @@
 {
-    "name": "kptm/sso",
+    "name": "uptm/sso",
     "description": "KPTM SSO Client - Laravel",
     "type": "library",
     "license": "MIT",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kptm\\Sso\\": "src"
+            "Uptm\\Sso\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kptm\\Sso\\Tests\\": "tests"
+            "Uptm\\Sso\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -42,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kptm\\Sso\\SsoServiceProvider"
+                "Uptm\\Sso\\SsoServiceProvider"
             ]
         }
     }

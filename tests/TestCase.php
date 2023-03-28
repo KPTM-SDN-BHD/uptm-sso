@@ -1,8 +1,8 @@
 <?php
 
-namespace Kptm\Sso\Tests;
+namespace Uptm\Sso\Tests;
 
-use Kptm\Sso\SsoServiceProvider;
+use Uptm\Sso\SsoServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

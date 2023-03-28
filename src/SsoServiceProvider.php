@@ -1,10 +1,10 @@
 <?php
 
-namespace Kptm\Sso;
+namespace Uptm\Sso;
 
 use Illuminate\Support\ServiceProvider;
-use Kptm\Sso\Http\Controllers\AuthenticationController;
-use Kptm\Sso\Providers\EventServiceProvider;
+use Uptm\Sso\Http\Controllers\AuthenticationController;
+use Uptm\Sso\Providers\EventServiceProvider;
 
 class SsoServiceProvider extends ServiceProvider
 {
