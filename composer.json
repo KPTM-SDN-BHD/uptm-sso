@@ -1,0 +1,49 @@
+{
+    "name": "kptm/sso",
+    "description": "KPTM SSO Client - Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MUHAMMAD TARMIZI SANUSI AFKAR",
+            "email": "realtarmizisanusi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.0|^6.0|^7.0",
+        "socialiteproviders/laravelpassport": "^1.0",
+        "laravel/socialite": "^4.3"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.8",
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kptm\\Sso\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kptm\\Sso\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kptm\\Sso\\SsoServiceProvider"
+            ]
+        }
+    }
+}
